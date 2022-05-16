@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo 2 UNIR Hernan Vesga</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="bannerheader">
+        <h1>Actividad 2: Tecnologías JavaScript y AJAX</h1>
+        <nav class="menu">
+            <ul> 
+            <strong> 
+              <a href="index.html">Javascript</a> |
+              <a href="ajax.html">Ajax</a> |
+            </strong> 
+            </ul>
+        </nav>   
+    </header>
+    <main>
+        <section>
+            <article class="explicacion">
+                <h2>Javascript</h2>
+                <table style="width:100%">
+                    <tr>
+                      <td width=230px>
+                          <img class="fotoperfil" 
+                          src="https://media-exp1.licdn.com/dms/image/C4D03AQFb_FTigbwMEw/profile-displayphoto-shrink_200_200/0/1631811513961?e=1657756800&v=beta&t=NVcA8MuWkahYc8Xltwgy7pRwQSdAMerOqFC6DI-y0eY"
+                          alt="">
+                        <p><strong>Sobre mí</strong></p>
+                        <p class="pcent">Soy Hernan Alonso Vesga, estudiante de ingeniería informática de la Universidad Internacional de la Rioja y Tecnologo administrador de redes con amplia experiencia como analista de soporte IT para empresas como Mediacommerce, Comsis, Getronics, Axity, etc.</p>
+                      </td>
+                      <td>
+                        <P><strong>Ejercicio 1: Palindromo</strong></P>
+                        <form>
+                            <label>Escriba una palabra, el script correspondiente le dirá si es un palíndromo o no: </label>
+                            <p></p>
+                            <input id="textopal" type="text"/>
+                            <button onclick="revpalindromo(document.getElementById('textopal').value)">Verificar</button>
+                        </form>
+                        <br>
+                        <P><strong>Ejercicio 2: Comparacion</strong></P>
+                        <p>Vamos a comparar dos numeros, por favor en cada una de las casillas a continuación escriba un numero, el script se encargará de indicar cual es mayor.</p>
+                        <form>
+                            <label>Primer número: </label>
+                            <p></p>
+                            <input id="num1" type="number"/>
+                            <p></p>
+                            <label>Segundo número: </label>
+                            <p></p>
+                            <input id="num2" type="number"/>
+                            <p></p>
+                            <button onclick="revision(document.getElementById('num1').value,document.getElementById('num2').value)">Comparelos</button>
+                        </form>
+                        <br>
+                        <P><strong>Ejercicio 3: Vocales en una frase</strong></P>
+                        <form>
+                            <label>Escriba una frase, el script correspondiente le mostrará las vocales dentro de la frase escrita: </label>
+                            <p></p>
+                            <input id="vocafrase" type="text"/>
+                            <button onclick="vocales(document.getElementById('vocafrase').value)">Analizar</button>
+                        </form>
+                        <br>
+                        <P><strong>Ejercicio 4: Número de vocales</strong></P>
+                        <form>
+                            <label>Escriba una frase, el script correspondiente le mostrará el número de vocales dentro de lo escrito: </label>
+                            <p></p>
+                            <input id="numvocales" type="text"/>
+                            <button onclick="nvocales(document.getElementById('numvocales').value)">Contar</button>
+                        </form>
+                        <p></p>               
+                    </tr>
+                </table>  
+            </article>
+            <br>
+    </main>
+    <footer>
+        <p><strong>Creado y diseñado por Hernan Alonso Vesga. UNIR 2022</strong></p>
+    </footer>    
+    <script src="scripts.js"></script>
+</body>
+</html>

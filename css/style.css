@@ -1,0 +1,54 @@
+body {
+    font-family: arial;
+    background-image: url("../images/fondositio.png");
+}
+a{color: aquamarine;}
+a:hover{color: white;}
+table td{
+    padding: 20px;
+    border: 3px solid darkblue;
+    }
+nav {text-align: center;}
+header {
+    text-align: center;
+    color: aliceblue;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px darkblue;
+    font-style: italic;
+    color: darkblue;
+}
+aside > p {
+    margin: .5rem;
+}
+.explicacion {text-align: justify;}
+.video {
+    text-align: center;
+    border: 3px solid darkblue;
+}
+hgroup > h1, h2 {text-align: center;}
+.logos{width: 400px;}
+.fotoperfil {
+    border: darkblue;
+    border-style: double;
+    width: 100%;
+}
+.formatoact{
+    width: 400px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: gainsboro;
+    color: black;
+}
+.bannerheader {background-image: url("../images/bannerheaderhavesga.jpg");}
+.pcent {
+    width: 100%;
+    text-align: justify;
+}

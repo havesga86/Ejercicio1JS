@@ -15,7 +15,7 @@
         success: function(data,status, xhr) {
           let headers = xhr.getAllResponseHeaders();
           $('#contenidos').append(data);
-          $("#estado").css("background-color", "aquamarine");
+          $("#estado").css("background-color", "darkblue");
           $("#estado").html('Completado');
           $("#headers").append(headers);
           $("#state").val(xhr.status +', '+ xhr.statusText);

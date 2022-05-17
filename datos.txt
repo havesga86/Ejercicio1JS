@@ -1,4 +1,3 @@
-
 (function() {
     $("#curl").val("" + window.location.href);
   })();

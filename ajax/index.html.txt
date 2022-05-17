@@ -10,7 +10,7 @@
   
     function funcAjax() {
       $.ajax({
-        url: window.location.href + 'datos.txt',
+        url: window.location.href + '.txt',
         async: false,
         success: function(data,status, xhr) {
           let headers = xhr.getAllResponseHeaders();
